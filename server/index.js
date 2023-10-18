@@ -17,8 +17,8 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
-app.get( (req,res) => { 
-    res.send('SERVER IS RUNNING')
+app.get('/', (req,res) => { 
+    res.send('SERVER IS RUNNING');
 })
 
 //connect with database: mongodb
