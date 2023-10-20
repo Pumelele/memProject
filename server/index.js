@@ -8,7 +8,7 @@ import postRoutes from './routes/posts.js';
 
 
 const app = express();
-
+//
 
 
 app.use(bodyParser.json({limit: "30mb", extended: true}));
